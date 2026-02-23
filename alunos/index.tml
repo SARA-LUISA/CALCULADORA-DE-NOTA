@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="centro">
+        <h1 id="titulo"> Calculadora de Média</h1>
+        <input type="text" id="nota1" placeholder="Digite a nota do aluno">
+        <input type="text" id="nota2" placeholder="Digite a nota do aluno">
+
+        <button id="calcularMedia">Calcular Média</button>
+
+        <p id="media"></p>
+
+        <script src="script.js"></script>
+
+    </div>
+
+    
+
+  
+</body>
+ <script src="script.js"></script>
+</html>

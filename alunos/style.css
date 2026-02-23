@@ -1,0 +1,25 @@
+body{
+    /* Centraliza o conteúdo na tela */
+    margin: 0;/* Remove a margem padrão do navegador */
+    height: 100vh;/* Define a altura da tela para 100% da altura da janela de visualização */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center;     /* centraliza na vertical */
+    background-color:midnightblue/* Define uma cor de fundo suave para a página */
+}
+
+h1 {
+    color: black; /* Define a cor do título */
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+#centro{
+    gap: 20px; /* Adiciona um espaço entre os elementos dentro do contêiner */
+    background-color: white; /* Define a cor de fundo do contêiner */
+    padding: 20px; /* Adiciona um preenchimento interno para criar espaço ao redor do conteúdo */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao contêiner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave para dar profundidade */
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+
+}
